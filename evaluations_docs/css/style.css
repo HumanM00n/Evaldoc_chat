@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --c-navbar: #061339;
+    /* Variable de couleur */
+    --first-bloc: #B9CDFF;
+    /* Variable de couleur */
+    --h1-color: #ededed;
+    /* Variable de couleur */
+    --titre: #2F4073;
+    /* Variable de couleur */
+    --footer: #061339;
+    /* Variable de couleur */
+    --headCat: #7885A5;
+    /* Variable de couleur */
+    --hoverCat: #061339;
+}
+
+
+body {
+    background: var(--h1-color);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 50px;
+    border: 0.1px solid black;
+    background-color: var(--c-navbar);
+    color: var(--h1-color);
+
+}
+
+.title {
+    background-image: url("../img/background.jpg");
+    height: 125px;
+}
+
+h3 {
+    color: var(--titre);
+    font-family: 'specimen', 'Merienda';
+}
+
+header p {
+    position: relative;
+    left: 20%;
+    color: var(--h1-color);
+    font-family: 'specimen', 'Merienda';
+}
+
+
+div h1 {
+    font-family: 'specimen', 'Merienda';
+    color: var(--h1-color);
+    font-size: revert;
+    position: relative;
+    left: 40%;
+    top: 40px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0px 0 165px;
+    border: 0.5px solid;
+    border-radius: 8px;
+    width: 23%;
+}
+
+
+.home-form {
+    display: flex;
+    padding: 15px;
+    width: 100%;
+}
+
+
+label {
+    display: inline-flex;
+    /* margin: 8px; */
+}
+
+textarea {
+    width: 100%;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+
+.home-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 20px;
+    border: 0.1px solid black;
+    background-color: var(--c-navbar);
+    color: var(--h1-color);
+}
+
+.article {
+    margin-top: 50px;
+   width: 50%;
+    background-color: var(--first-bloc);
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+.home-article{
+    display: flex;
+}
